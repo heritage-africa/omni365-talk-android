@@ -49,11 +49,11 @@ android {
         productFlavors {
             // used for f-droid
             generic {
-                applicationId 'com.nextcloud.talk2'
+                applicationId 'com.omni365.talk2'
                 dimension "default"
             }
             gplay {
-                applicationId 'com.nextcloud.talk2'
+                applicationId 'com.omni365.talk2'
                 dimension "default"
             }
             qa {

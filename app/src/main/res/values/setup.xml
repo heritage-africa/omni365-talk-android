@@ -13,8 +13,8 @@
     <bool name="nc_is_debug">false</bool>
 
     <string name="nc_app_name">Talk</string>
-    <string name="nc_app_product_name">Nextcloud Talk</string>
-    <string name="nc_server_product_name">Nextcloud</string>
+    <string name="nc_app_product_name">Omni365 Talk</string>
+    <string name="nc_server_product_name">Omni365</string>
 
     <string name="nc_push_server_url" translatable="false">https://push-notifications.nextcloud.com</string>
 
