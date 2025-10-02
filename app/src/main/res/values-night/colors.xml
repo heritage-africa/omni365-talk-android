@@ -8,6 +8,9 @@
   ~ SPDX-License-Identifier: GPL-3.0-or-later
 -->
 <resources>
+
+    <color name="foreground">#ffffff</color>
+
     <color name="colorPrimary">#F15A24</color>
     <color name="colorPrimaryDark">#F15A24</color>
     <color name="colorAccent">@color/colorPrimary</color>

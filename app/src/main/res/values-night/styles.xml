@@ -172,17 +172,17 @@
     </style>
 
     <style name="Widget.App.Login.TextInputLayout" parent="Widget.Material3.TextInputLayout.OutlinedBox">
-        <item name="colorControlActivated">@color/foreground</item>
-        <item name="colorControlHighlight">@color/foreground</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlHighlight">@color/white</item>
         <item name="materialThemeOverlay">@style/ThemeOverlay.App.Login.TextInputLayout</item>
         <item name="shapeAppearance">@style/ShapeAppearance.MaterialComponents.SmallComponent</item>
-        <item name="hintTextColor">@color/foreground</item>
-        <item name="helperTextTextColor">@color/foreground</item>
+        <item name="hintTextColor">@color/white</item>
+        <item name="helperTextTextColor">@color/white</item>
     </style>
 
     <style name="ThemeOverlay.App.Login.TextInputLayout" parent="">
-        <item name="colorPrimary">@color/foreground</item>
-        <item name="colorOnSurface">@color/foreground</item>
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
         <item name="colorError">@color/nc_darkRed</item>
         <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>
         <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>

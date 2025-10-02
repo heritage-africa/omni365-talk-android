@@ -13,7 +13,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_gravity="center"
-    android:background="@color/colorPrimary"
+    android:background="@color/bg_default"
     android:fillViewport="true"
     android:orientation="vertical">
 
@@ -52,7 +52,7 @@
                 app:endIconContentDescription="@string/nc_server_connect"
                 app:endIconDrawable="@drawable/ic_arrow_forward_white_24px"
                 app:endIconMode="custom"
-                app:endIconTint="@color/white">
+                app:endIconTint="@color/foreground">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/serverEntryTextInputEditText"
@@ -66,8 +66,8 @@
                     android:paddingStart="16dp"
                     android:paddingEnd="55dp"
                     android:scrollbars="vertical"
-                    android:textColor="@color/white"
-                    android:textColorHint="#80FFFFFF">
+                    android:textColor="@color/foreground"
+                    android:textColorHint="@color/low_emphasis_text">
 
                     <requestFocus />
 
@@ -86,7 +86,7 @@
                 android:paddingBottom="2dp"
                 android:text="@string/nc_server_helper_text"
                 android:textAlignment="viewStart"
-                android:textColor="@color/nc_login_text_color" />
+                android:textColor="@color/foreground" />
 
             <LinearLayout
                 android:id="@+id/serverEntryProgressBar"
@@ -102,7 +102,7 @@
                     android:layout_width="24dp"
                     android:layout_height="24dp"
                     android:layout_gravity="end|center_vertical"
-                    android:indeterminateTint="@color/white" />
+                    android:indeterminateTint="@color/foreground" />
 
                 <TextView
                     android:layout_width="match_parent"
@@ -115,7 +115,7 @@
                     android:paddingEnd="8dp"
                     android:text="@string/nc_server_testing_connection"
                     android:textAlignment="viewStart"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/foreground" />
 
             </LinearLayout>
 
@@ -148,7 +148,6 @@
                     android:paddingStart="5dp"
                     android:paddingEnd="8dp"
                     android:textAlignment="viewStart"
-                    android:textColor="@color/white"
                     tools:text="@string/nc_server_unsupported" />
             </LinearLayout>
 
@@ -160,7 +159,7 @@
                 android:background="@color/transparent"
                 android:contentDescription="@string/scan_qr_code"
                 android:src="@drawable/outline_qr_code_24"
-                app:tint="@color/white" />
+                app:tint="@color/foreground" />
 
             <TextView
                 android:id="@+id/import_or_choose_provider_text"
@@ -173,7 +172,7 @@
                 android:padding="@dimen/standard_padding"
                 android:text="@string/nc_get_from_provider"
                 android:textAlignment="center"
-                android:textColor="@color/nc_login_text_color" />
+                android:textColor="@color/foreground" />
 
             <TextView
                 android:id="@+id/cert_text_view"
@@ -186,7 +185,7 @@
                 android:padding="@dimen/standard_padding"
                 android:text="@string/nc_configure_cert_auth"
                 android:textAlignment="center"
-                android:textColor="@color/nc_login_text_color" />
+                android:textColor="@color/foreground" />
 
         </LinearLayout>
 
